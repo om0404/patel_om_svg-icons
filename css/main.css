@@ -1,0 +1,42 @@
+.hidden{
+    display: none;
+}
+
+#header{
+    padding-left: 165px;
+}
+
+body{
+    background-color: #fff;
+    color: black;
+    font-size: 18px;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clothing h2{
+    text-align:center;    
+}
+.clothing{
+    text-align: center;
+    margin-top: 110px;
+}
+.clothing div img{
+    width: 15%;
+    height: 30%;
+}
+.accessories h2{
+    text-align:center;    
+}
+.accessories{
+    text-align: center;
+    margin-top: 10px;
+}
+.accessories div img{
+    width: 15%;
+    height: 30%;
+}
+#footer{
+    padding-left: 165px;
+   
+}
