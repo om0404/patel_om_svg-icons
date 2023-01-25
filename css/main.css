@@ -15,16 +15,25 @@ body{
 }
 
 .clothing h2{
-    text-align:center;    
+    
+    font-size: 18px;   
 }
 .clothing{
     text-align: center;
     margin-top: 110px;
+    width: 180px;
+    display: inline;
+    padding-left: 220px;
+    
+    
 }
-.clothing div img{
-    width: 15%;
-    height: 30%;
+.clothing div {
+    
+    padding-left: 70px;
+    padding-top: 50px;
+    display: inline-block;
 }
+
 .accessories h2{
     text-align:center;    
 }
@@ -39,4 +48,104 @@ body{
 #footer{
     padding-left: 165px;
    
+}
+#tshirtdiv{
+   
+    height: 150px;
+    width: 150px;
+}
+
+#tshirtdiv:hover #tshirt_1{
+    fill:blue;
+}
+#jeansdiv{
+   
+    
+    height: 110px;
+    width: 100px;  
+}
+#jeansdiv:hover #jeans_1{
+    fill: blue;
+}
+
+#dressdiv{
+   
+    
+    height: 110px;
+    width: 110px;  
+}
+#dressdiv:hover #dress_1{
+    fill: blue;
+}
+#skirtdiv{
+   
+    
+    height: 170px;
+    width: 140px;  
+}
+#skirtdiv:hover #skirt_1{
+    fill: blue;
+}
+
+#winterjacketdiv{
+   
+    
+    height: 170px;
+    width: 140px;  
+}
+#winterjacketdiv:hover #winterjacket_1{
+    fill: blue;
+}
+
+.accessories{
+    text-align: center;
+    margin-top: 110px;
+    width: 180px;
+    display: inline;
+    padding-left: 220px;    
+}
+.accessories div {
+    
+    padding-left: 85px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+#perfumediv{    
+    height: 130px;
+    width: 100px;  
+}
+#perfumediv:hover #perfume_1{
+    fill:darkblue;
+}
+
+#ringdiv{   
+    height: 130px;
+    width: 100px;  
+}
+#ringdiv:hover #ring_1{
+    fill:darkgoldenrod;
+}
+
+#socksdiv{   
+    height: 130px;
+    width: 100px;    
+}
+#socksdiv:hover #socks_1{
+    fill:teal;
+}
+#shoesdiv{   
+    height: 170px;
+    width: 140px;  
+}
+#shoes:hover #shoes_1{
+    fill:sienna;
+}
+
+#sunglassesdiv{   
+    height: 170px;
+    width: 140px;  
+}
+#sunglasses:hover #sunglasses_1{
+    fill:gray;
 }
